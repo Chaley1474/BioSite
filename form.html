@@ -27,11 +27,19 @@
             </ul>
         </nav>
   </header>
-<main>
-    <h1>About Me</h1>
-    <section>
-    <p>Hello! My name is Christian, like Bale. I am an aspiring web developer and 
-        I do indeed get a lot of "Christian" jokes. </p>
-</main>
+    <h1>Contact Me</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
 </body>
 </html>

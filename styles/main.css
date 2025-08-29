@@ -3,3 +3,91 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: linear-gradient(135deg, #ffb6c1 0%, #ffe4e1 100%);
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+  color: #222;
+}
+
+header, nav {
+  background: #ff69b4;
+  border-bottom: 4px solid #8a2be2;
+}
+
+.nav-links .btn {
+  background: #fff0f5;
+  color: #8a2be2;
+  border: 2px solid #8a2be2;
+  font-weight: bold;
+  margin: 0 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-links .btn:hover {
+  background: #8a2be2;
+  color: #fff0f5;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 0 24px #ff69b4;
+  padding: 32px;
+  margin: 32px auto;
+  max-width: 800px;
+}
+
+h1, h2 {
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+  color: #8a2be2;
+  text-shadow: 2px 2px #ff69b4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  background: #fff0f5;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px #8a2be2;
+}
+
+th, td {
+  border: 2px solid #8a2be2;
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background: #ff69b4;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+  background: #ffe4e1;
+}
+
+tr:hover {
+  background: #ffb6c1;
+  color: #8a2be2;
+  transition: background 0.2s;
+}
+a.btn.gallery-btn {
+  background: #fff0f5 !important;
+  color: #8a2be2 !important;
+  border: 2px solid #8a2be2 !important;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 6px;
+  padding: 8px 24px;
+  display: inline-block;
+}
+a.btn.gallery-btn:hover {
+  background: #8a2be2 !important;
+  color: #fff0f5 !important;
+}
