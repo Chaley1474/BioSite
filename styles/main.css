@@ -91,3 +91,16 @@ a.btn.gallery-btn:hover {
   background: #8a2be2 !important;
   color: #fff0f5 !important;
 }
+ul.about-list {
+  background: #fff0f5;
+  border-radius: 8px;
+  padding: 16px 24px;
+  box-shadow: 0 0 8px #ff69b4;
+  color: #8a2be2;
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+  margin-top: 16px;
+}
+ul.about-list li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
